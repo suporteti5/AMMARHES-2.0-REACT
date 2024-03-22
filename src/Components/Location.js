@@ -32,7 +32,7 @@ const Location = () => {
       title: "Centro",
       image: img004,
       text: "Av.  Presidente  Vargas   435, SALA 1502,  Centro,  Rio de Janeiro  -  RJ,  20071-904, (Próximo a estação uruguaina do metro)",
-      link: "https://www.google.com/maps/place/Av.+Pres.+Vargas,+542+-+1315+-+Centro,+Rio+de+Janeiro+-+RJ,+20071-000/@-22.9014949,-43.183466,17z/data=!3m1!4b1!4m5!3m4!1s0x997f5c68e5d6b1:0x39c0154b5b313b5d!8m2!3d-22.9014949!4d-43.1812773s",
+      link: "https://www.google.com/maps/place/Av.+Pres.+Vargas,+435+-+Centro,+Rio+de+Janeiro+-+RJ,+20071-003/@-22.9019041,-43.1822075,17z/data=!3m1!4b1!4m6!3m5!1s0x997f5ea098bd19:0xd2cdeada4c0ca880!8m2!3d-22.9019041!4d-43.1796272!16s%2Fg%2F11bw4471j1?entry=ttu",
     },
   ];
 

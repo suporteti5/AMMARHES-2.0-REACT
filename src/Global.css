@@ -223,42 +223,6 @@ nav {
     margin: 20px;
 }
 
-.other-services-container {
-    display: flex;
-    padding: 0 50px;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
-.container-service {
-    background: #0E58A8;
-}
-
-.container-service h3 {
-    text-align: center;
-    padding: 20px;
-    color: #fff;
-}
-
-.item-container {
-    margin: 20px;
-}
-
-.item-container h4 {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-}
-
-.item-container ul {
-    margin: 20px 0;
-    list-style: none;
-    color: #fff;
-    width: 373px;
-    padding: 0;
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -298,6 +262,42 @@ nav {
 .css-qfso29-MuiTypography-root-MuiDialogContentText-root {
     color: #000 !important;
     font-weight: 500;
+}
+
+/* SECTION OTHER SERVICES */
+
+.other-service h3 {
+    text-align: center;
+}
+
+.other-service-container {
+    margin: 30px 0;
+}
+
+.other-service-item {
+    display: flex;
+    justify-content: space-around;
+}
+
+.other-service-item-content {
+    padding: 50px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.other-service-item-content h2 {
+    font-size: 30px;
+    margin: 15px auto;
+}
+
+.other-service-item-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.other-service-item-content {
+    background: #eaeaea;
 }
 
 /* SECTION LOCATION */
@@ -356,7 +356,7 @@ nav {
     margin: 30px 0 !important;
 }
 
-#form-submit { 
+#form-submit {
     margin-top: 10px;
 }
 
@@ -507,10 +507,22 @@ footer h5 {
         margin: 0 auto;
     }
 
-    /* other compaines */
+    /* OTHER SERVICES */
 
     .other-companies-logos {
         gap: 40px;
+    }
+
+    /* OTHER SERVICES */
+
+    .other-service-item {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+    }
+
+    .other-service-item-content {
+        width: 50%;
     }
 
     /* FOOTER */

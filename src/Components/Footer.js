@@ -20,19 +20,19 @@ const FooterPage = () => {
         <div className="footer-content1">
           <p>
             <FaPhoneAlt />
-            <a className="span-footer" href="tel:+55213549-1640">
+            <a className="span-footer" href="tel:+552135491640">
               +55 (21) 3549-1640
             </a>
           </p>
           <p>
             <FaPhoneAlt />
-            <a className="span-footer" href="tel:+55212026-0011">
+            <a className="span-footer" href="tel:+552120260011">
               +55 (21) 2026-0011
             </a>
           </p>
           <p>
             <FaPhoneAlt />
-            <a className="span-footer" href="tel:+55212262-9752">
+            <a className="span-footer" href="tel:+552122629752">
               +55 (21) 2262-9752
             </a>
           </p>

@@ -26,30 +26,84 @@ const About = () => {
     {
       title: "Quem Somos",
       icon: <FaRegUser />,
-      message: `Somos a empresa líder de um grupo sólido, atuando há mais de 30 anos em todos os segmentos de Segurança e Saúde Ocupacional. Nossa grande ferramenta, 
-      que incrementa nosso diferencial, é um sistema próprio de Gestão de SST chamado AGENDA TÉCNICA, que facilita todos os mecanismos de trabalho, reduzindo custos 
-      e garantindo ao cliente resultados de qualidade e financeiros. Oferecemos uma ampla gama de serviços disponíveis por meio de uma rede de clínicas próprias, 
-      respaldados por solidez financeira. Além disso, somos registrados no CREA, com emissão de ART (Anotação de Responsabilidade Técnica) nas atividades de Engenharia,
-       com ênfase em Segurança do Trabalho e Meio Ambiente. Também possuímos registro no CRM, com médico-coordenador.`,
+      message: (
+        <>
+          Somos a empresa líder de um grupo sólido, atuando há mais de 30 anos
+          em todos os segmentos de Segurança e Saúde Ocupacional.
+          <br /> <br />
+          Nossa grande ferramenta, que incrementa nosso diferencial, é um
+          sistema próprio de Gestão de SST a AGENDA TÉCNICA, nosso sistema
+          facilita todos os mecanismos de trabalho, reduzindo custos e
+          garantindo ao cliente resultados de qualidade e financeiros.
+          <br /> <br />
+          Oferecemos uma ampla gama de serviços disponíveis por meio de uma rede
+          de clínicas próprias, respaldados por solidez financeira. Além disso,
+          somos registrados no CREA, com emissão de ART (Anotação de
+          Responsabilidade Técnica) nas atividades de Engenharia, com ênfase em
+          Segurança do Trabalho e Meio Ambiente. Também possuímos registro no
+          CRM, com médico-coordenador.
+        </>
+      ),
     },
     {
       title: "Nossa História",
       icon: <FaCalendarCheck />,
-      message: `A Ammarhes nasceu como uma equipe de consultores especializados em Saúde Ocupacional, Meio Ambiente e Segurança do Trabalho. Inicialmente, éramos um 
-      grupo multidisciplinar que expandiu suas atividades em direção ao desenvolvimento de SISTEMAS DE GESTÃO, agregando ao nosso portfólio a assessoria na aplicação 
-      de diversas normas, tais como ISO 14001, ISO 9001, NBR 16001 e SA 8000.`,
+      message: (
+        <>
+          A Ammarhes surgiu como uma equipe de consultores especializados em
+          Saúde Ocupacional, Meio Ambiente e Segurança do Trabalho.
+          <br />
+          <br />
+          Originados como um grupo multidisciplinar, expandimos nossas
+          atividades para o desenvolvimento de Sistemas de Gestão, agregando
+          também assessoria na aplicação de diversas normas, como ISO 14001, ISO
+          9001, NBR 16001 e SA 8000.
+        </>
+      ),
     },
     {
       title: "Nosso Diferencial",
       icon: <IoDiamondOutline />,
-      message: `Somos um grupo composto por quatro empresas no segmento de Engenharia de Segurança do Trabalho (Ammarhes); Software de Gestão SST (Agenda Técnica);
-       Saúde Ocupacional (Casa Ocupacional) e Marketplace do Segmento (Saúde 10).`,
+      message: (
+        <>
+          Somos um grupo líder no segmento de Engenharia de Segurança do
+          Trabalho, composto por quatro empresas renomadas: Ammarhes,
+          especializada em Engenharia de Segurança do Trabalho; Agenda Técnica,
+          fornecedora de Software de Gestão SST; Casa Ocupacional, referência em
+          Saúde Ocupacional; e Saúde 10, um marketplace especializado no
+          segmento.
+          <br />
+          <br />
+          Nossas soluções abrangem toda a cadeia de serviços relacionados à
+          segurança e saúde no ambiente de trabalho.
+          <br />
+          <br />
+          Com uma equipe experiente e comprometida, oferecemos soluções
+          inovadoras e eficazes para atender às necessidades específicas de cada
+          cliente.
+          <br />
+          <br />
+          Conte conosco para garantir a segurança e o bem-estar dos seus
+          colaboradores, além de atender às exigências legais e normativas do
+          setor. Entre em contato conosco para saber mais sobre como podemos
+          ajudar a sua empresa a alcançar excelência em segurança do trabalho e
+          saúde ocupacional.
+        </>
+      ),
     },
     {
       title: "Software, Marketplace e Atendimento nacional",
       icon: <IoIosSettings />,
-      message: `Nossa plataforma, a Agenda Técnica, assegura agilidade e acessibilidade por meio da nossa rede Casa Ocupacional, possibilitando atendimento em todo o
-       Brasil, abrangendo quase uma centena de cidades, e garantindo simultaneamente preço e qualidade.`,
+      message: (
+        <>
+          Nossa plataforma, a Agenda Técnica, oferece agilidade e acessibilidade
+          por meio de nossa extensa rede Casa Ocupacional, possibilitando
+          atendimento em todo o Brasil, em quase uma centena de cidades.
+          <br />
+          <br />
+          Garantimos preço e qualidade no atendimento.
+        </>
+      ),
     },
   ];
 
@@ -136,7 +190,11 @@ const About = () => {
                   alt="Logo Ammarhes"
                 />
               </a>
-              <a target="_blank" href="https://ammarhes.com.br/" className="a-buttons">
+              <a
+                target="_blank"
+                href="https://ammarhes.com.br/"
+                className="a-buttons"
+              >
                 Clique e Acesse
               </a>
             </div>
@@ -149,7 +207,11 @@ const About = () => {
                   alt="Logo Casa Ocupacional"
                 />
               </a>
-              <a target="_blank" href="https://casaocupacional.com.br/" className="a-buttons">
+              <a
+                target="_blank"
+                href="https://casaocupacional.com.br/"
+                className="a-buttons"
+              >
                 Clique e Acesse
               </a>
             </div>
@@ -161,7 +223,11 @@ const About = () => {
                   alt="Logo Agenda Técnica"
                 />
               </a>
-              <a target="_blank" href="https://www.agendatecnica.com.br/" className="a-buttons">
+              <a
+                target="_blank"
+                href="https://www.agendatecnica.com.br/"
+                className="a-buttons"
+              >
                 Clique e Acesse
               </a>
             </div>
@@ -174,7 +240,11 @@ const About = () => {
                   id="saude10"
                 />
               </a>
-              <a target="_blank" href="https://saude10clinica.com.br/" className="a-buttons">
+              <a
+                target="_blank"
+                href="https://saude10clinica.com.br/"
+                className="a-buttons"
+              >
                 Clique e Acesse
               </a>
             </div>

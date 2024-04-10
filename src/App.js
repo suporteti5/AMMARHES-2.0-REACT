@@ -10,6 +10,7 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import Location from "./Components/Location";
 import ScrollButton from "./Components/ScrollButton";
+import OtherServices from "./Components/OtherServices";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <About />
         <div id="services-section"></div>
         <Services />
+        <OtherServices />
         <div id="Location-h3"></div>
         <Location />
         <div id="contact-section"></div>

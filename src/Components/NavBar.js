@@ -187,7 +187,7 @@ const Navbar = () => {
               <div className="text-top-menu-mobile">
                 <p>
                   <span className="text-top-menu-span">Contato:</span>
-                  <a href="mailto:contato@saude10clinica.com.br">
+                  <a href="mailto:comercial@ammarhes.com.br">
                     comercial@ammarhes.com.br
                   </a>
                 </p>
@@ -195,7 +195,7 @@ const Navbar = () => {
               <div className="text-top-menu-mobile">
                 <p>
                   <span className="text-top-menu-span">Ligar para:</span>
-                  <a href="tel:+55213549-1640"> +55 (21) 3549-1640</a>
+                  <a href="tel:+552135491640"> +55 (21) 3549-1640</a>
                 </p>
               </div>
             </div>

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 /* Images */
-import Agenda from "../Assets/Logos/LogoAgenda.png";
+import Aso from "../Assets/Logos/LogoAso.png";
 import Casa from "../Assets/Logos/LogoCasa.png";
 import Saude10 from "../Assets/Logos/LogoSaude10.png";
 import LogoAmmarhesBlue from "../Assets/Logos/LogoAmmarhesBlue.png";
@@ -216,16 +216,17 @@ const About = () => {
               </a>
             </div>
             <div className="div-link">
-              <a target="_blank" href="https://www.agendatecnica.com.br/">
+              <a target="_blank" href="https://asoonline.com.br/">
                 <img
                   className="other-companies-logos-Imgs"
-                  src={Agenda}
-                  alt="Logo Agenda Técnica"
+                  src={Aso}
+                  alt="Logo Aso"
+                  id="asoIMG"
                 />
               </a>
               <a
                 target="_blank"
-                href="https://www.agendatecnica.com.br/"
+                href="https://www.asoonline.com.br/"
                 className="a-buttons"
               >
                 Clique e Acesse

@@ -8,7 +8,6 @@ import CheckIcon from "@mui/icons-material/Check";
 
 const Contact = () => {
   const [isCaptchaVerified, setIsCaptchaVerified] = useState(false);
-  const [isSubmitting, setIsSubmitting] = useState(false);
 
   const handleCaptchaVerify = () => {
     setIsCaptchaVerified(true);
@@ -36,7 +35,6 @@ const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setIsSubmitting(true);
     console.log("Formulário em processo de envio:", formData);
 
     try {
@@ -61,8 +59,6 @@ const Contact = () => {
     } catch (error) {
       document.getElementById("alertForm").style.display = "block";
       setAlertVisible(false);
-    }finally {
-      setIsSubmitting(false);
     }
   };
 
@@ -126,13 +122,13 @@ const Contact = () => {
             onChange={handleCaptchaVerify}
             onExpired={handleCaptchaExpire}
           />
-             <Button
+          <Button
             variant="primary"
             type="submit"
             id="form-submit"
-            disabled={!isCaptchaVerified || isSubmitting}
+            disabled={!isCaptchaVerified}
           >
-            {isSubmitting ? "Enviando..." : "Enviar"}
+            Enviar
           </Button>
         </Form>
         <div id="alertForm">

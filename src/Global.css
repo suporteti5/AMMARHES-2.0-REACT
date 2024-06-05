@@ -189,6 +189,11 @@ nav {
     gap: 10px;
 }
 
+#asoIMG {
+    width: 100%;
+    height: 100px;
+}
+
 .other-companies-logos-Imgs {
     width: 200px;
     height: 75px;
